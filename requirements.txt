@@ -1,0 +1,29 @@
+# Core Framework Dependencies
+Flask==2.2.5                # Web framework for building the API
+Werkzeug==2.2.3            # WSGI utility library required by Flask
+Flask-SQLAlchemy==3.0.2    # SQL toolkit and ORM integration for Flask
+SQLAlchemy==1.4.41         # Database toolkit and ORM
+
+# Data Processing and Analysis
+numpy==1.26.3              # Numerical computing library for confidence calculations
+pandas==2.2.0             # Data manipulation library for CSV processing
+python-dateutil==2.8.2    # Advanced date/time manipulation
+
+# Geographic Processing
+Shapely==2.0.2           # Geometric operations for border checking
+geopy==2.4.1             # Geographic distance calculations
+
+# Time Zone Handling
+pytz==2024.1            # Timezone database and utilities
+
+# Type Hints Support
+typing-extensions==4.9.0  # Enhanced typing support for Python
+
+# Development and Testing
+pytest==7.4.4           # Testing framework
+black==24.1.1           # Code formatting
+flake8==7.0.0          # Code linting
+
+# Optional but Recommended
+python-dotenv==1.0.0    # Environment variable management
+gunicorn==21.2.0        # Production WSGI server

@@ -1,0 +1,41 @@
+# Core Framework Dependencies
+# These are essential for running the main application
+Flask==2.2.5                  # Web framework for the API endpoints
+Werkzeug==2.2.3              # Required by Flask for WSGI utilities
+Flask-SQLAlchemy==3.0.2      # SQL ORM integration for Flask
+SQLAlchemy==1.4.41           # Database toolkit and ORM
+numpy==1.26.3                # Numerical computations for data analysis
+pandas==2.2.0                # Data manipulation and CSV handling
+python-dateutil==2.8.2       # Advanced date/time handling
+
+# Testing Framework
+pytest==7.4.4                # Primary testing framework
+pytest-cov==4.1.0            # Coverage reporting for quality assurance
+pytest-flask==1.3.0          # Flask-specific testing utilities
+pytest-mock==3.12.0          # Mocking functionality for tests
+pytest-timeout==2.2.0        # Test timeout management for async tests
+
+# Test Data Generation and Mocking
+factory-boy==3.3.0           # Test data generation with factories
+faker==22.2.0                # Generates realistic test data
+freezegun==1.4.0            # Time freezing for temporal testing
+responses==0.24.1           # HTTP request mocking
+
+# Code Quality and Analysis
+black==24.1.1               # Code formatting for consistency
+flake8==7.0.0              # Code linting for quality checks
+mypy==1.8.0                # Static type checking
+pytest-clarity==1.0.1      # Improved test failure messages
+
+# Geographic Testing Support
+shapely==2.0.2             # Geographic calculations for border testing
+geopy==2.4.1               # Distance calculations for location testing
+
+# Development Utilities
+ipython==8.12.0            # Enhanced interactive testing shell
+pytest-watch==4.2.0        # Continuous test running during development
+pytest-xdist==3.5.0        # Parallel test execution
+
+# Documentation
+Sphinx==7.2.6              # Documentation generation
+sphinx-rtd-theme==2.0.0    # Documentation theme
